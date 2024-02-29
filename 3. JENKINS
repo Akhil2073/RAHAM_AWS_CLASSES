@@ -101,7 +101,9 @@ dashboard -- > manage jenkins -- > nodes -- > built-in node -- > configure -- > 
 
 
 HOW TO RESLOVE ISSUE WHEN JENKINS SERVER IS CRASHED: 
-when we stop and start server your ip will change and the services inside server also stop.
+when we stop and start server ==> your ip will change and the services inside server also stop.
+	-> systemctl enable jenkins
+	-> chkconfig jenkins on
 
 
 
